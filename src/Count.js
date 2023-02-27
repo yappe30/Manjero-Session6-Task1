@@ -8,7 +8,7 @@ class Count extends Component {
     }
 
     render() {
-        console.log(this.props.empData)
+        //console.log(this.props.empData)
         return (
             <>
                 <p>{this.props.empData.name}</p>
