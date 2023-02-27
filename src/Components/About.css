@@ -1,0 +1,21 @@
+#aboutSubTitle {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: auto;
+  }
+  #aboutSubTitle:before, #aboutSubTitle:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+  }
+  #aboutSubTitle:before {
+    margin-right: 10px
+  }
+  #aboutSubTitle:after {
+    margin-left: 10px
+  }
+  div{
+    font-family: Arial Black;
+  }
